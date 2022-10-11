@@ -15,7 +15,7 @@ describe("tests", () => {
   it("should return 7 words", () => {
     const array = [
       "Hola hola hola",
-      "hola ",
+      "hola",
       "hola hola",
       "hola"
     ];
@@ -30,7 +30,7 @@ describe("tests", () => {
   });
 
   it("should return 1 words", () => {
-    const array = [['hola']];
+    const array = ['hola'];
     const rta = countWords(array);
     expect(rta).toEqual(1);
   });
